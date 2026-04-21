@@ -1,0 +1,20 @@
+# Create the local directory
+mkdir river-flow-initiative
+cd river-flow-initiative
+
+# Initialize the repository
+git init
+
+# Create the standard files
+touch README.md LICENSE .gitignore
+
+# (Paste the README and LICENSE content provided above into the files)
+
+# Add and Commit
+git add .
+git commit -m "Initial commit: River Flow Initiative Architecture"
+
+# Link to GitHub and Push
+git remote add origin https://github.com/RickRed7/river-flow-initiative.git
+git branch -M main
+git push -u origin main
